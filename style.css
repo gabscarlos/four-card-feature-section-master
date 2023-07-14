@@ -39,14 +39,14 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 450px;
-    height: 300px;
+    width: 380px;
+    height: 250px;
     margin: auto;
     margin-top: 2rem;
     border-radius: 10px;
@@ -65,25 +65,29 @@
 }
 
 .linha-supervisor {
-    width: 100%;
+    position: absolute;
+    width: 380px;
     height: 5px;
     background-color: hsl(180, 62%, 55%);
 }
 
 .linha-team {
-    width: 100%;
+    position: absolute;
+    width: 380px;
     height: 5px;
     background-color: hsl(0, 78%, 62%);
 }
 
 .linha-karma {
-    width: 100%;
+    position: absolute;
+    width: 380px;
     height: 5px;
     background-color: hsl(34, 97%, 64%);
 }
 
 .linha-calculator {
-    width: 100%;
+    position: absolute;
+    width: 380px;
     height: 5px;
     background-color: hsl(212, 86%, 64%);
 }
@@ -105,12 +109,12 @@
     display: flex;
     align-items: center;
     width: 70px;
-    margin-top: 60px;
-    margin-left: 350px;
+    margin-top: 20px;
+    margin-left: 280px;
 }
 
 .attribution {
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-size: 11px; 
     text-align: center; 
     color: hsl(234, 12%, 34%);
@@ -122,6 +126,13 @@
 @media only screen and (max-width: 800px) {
     .cards {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
