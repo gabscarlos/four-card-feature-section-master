@@ -125,8 +125,11 @@
 
 @media only screen and (max-width: 800px) {
     .cards {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
+        margin-left: 50px;
     }
 
     .coluna {
@@ -145,4 +148,7 @@
         margin: auto;
         margin-top: 30px;
     }
+
+    .attribution {
+        margin-left: 80px;
   }
